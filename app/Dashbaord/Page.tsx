@@ -23,7 +23,6 @@ import GroupBanner6 from "../assets/Images/GroupBanner6.jpg";
 import DiversifiedIcoN from "../assets/Images/Diversified-icon.jpg"
 import CompetitiveIcon from "../assets/Images/Competitive-icon.jpg";
 import RobustSecurityIcon from "../assets/Images/Robust-Security-Measures-icon.jpg";
-// import FastestIcon from "../assets/Images/Fastest-Customer-Support-icon.jpg";
 import MobileStay from "../assets/Images/MobileStayAhead.jpg";
 import GoogleApp from "../assets/Images/GoogleApp.jpg";
 import GooglePlay from "../assets/Images/GooglePlay.jpg";
