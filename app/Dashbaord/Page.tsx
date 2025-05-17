@@ -20,7 +20,7 @@ import CreateAccount from "../assets/Images/Create-Account.jpg";
 import DepositFund from "../assets/Images/Depositfund.jpg";
 import StartTrading from "../assets/Images/StartTrading.jpg";
 import GroupBanner6 from "../assets/Images/GroupBanner6.jpg";
-import DiversifiedIcon from "../assets/Images/Diversified-icon.jpg"
+import DiversifiedIcoN from "../assets/Images/Diversified-icon.jpg"
 import CompetitiveIcon from "../assets/Images/Competitive-icon.jpg";
 import RobustSecurityIcon from "../assets/Images/Robust-Security-Measures-icon.jpg";
 import FastestIcon from "../assets/Images/Fastest-Customer-Support-icon.jpg";
@@ -276,15 +276,15 @@ export default function Dashboard() {
           <button className='bg-cyan-300 px-9 py-2 rounded-full'>Get Started</button>
         </div>
         <div className='text-left px-44 mt-16'>
-//           <h3 className='text-4xl font-semibold mb-4'>Salient Features of KoinBx</h3>
-//           <p className='font-light text-lg'>KoinBX is a cutting-edge crypto trading platform that offers a host of remarkable features tailored to cater to the needs of seasoned traders and crypto enthusiasts.
-//             Here are some of the standout features that set KoinBX apart from the rest</p>
+          <h3 className='text-4xl font-semibold mb-4'>Salient Features of KoinBx</h3>
+      <p className='font-light text-lg'>KoinBX is a cutting-edge crypto trading platform that offers a host of remarkable features tailored to cater to the needs of seasoned traders and crypto enthusiasts.
+            Here are some of the standout features that set KoinBX apart from the rest</p>
         </div>
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
           <div className="border border-gray-300 bg-gray-100 rounded-xl p-5 shadow-sm">
             <div>
               <div className="flex justify-end">
-                <Image src={DiversifiedIcon} alt="" height={100} width={100} />
+                <Image src={DiversifiedIcoN} alt="" height={100} width={100} />
               </div>
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">Diversified Crypto Portfolio</h3>
               <p className="text-gray-600">
