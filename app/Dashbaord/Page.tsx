@@ -20,10 +20,10 @@ import KoinBx1 from "../assets/Images/Koinbx1.jpg";
 import KoinBx2 from "../assets/Images/KoinBx2.jpg";
 import KoinBx3 from "../assets/Images/Koinbx3.jpg";
 import KoinBx4 from "../assets/Images/KoinBx4.jpg";
-import KoinBx5 from "../assets/Images/KoinBx5.jpg";
+import KoinBx5 from "../assets/Images/Koinbx5.jpg";
 import KoinBx6 from "../assets/Images/KoinBx6.jpg";
 import KoinBx7 from "../assets/Images/KoinBx7.jpg";
-import KoinBx8 from "../assets/Images/Koinbx8.jpg";
+import KoinBx8 from "../assets/Images/KoinBx8.jpg";
 import CreateAccount from "../assets/Images/Create-Account.jpg";
 import DepositFund from "../assets/Images/Depositfund.jpg";
 import StartTrading from "../assets/Images/StartTrading.jpg"
