@@ -20,7 +20,19 @@ import CreateAccount from "../assets/Images/Create-Account.jpg";
 import DepositFund from "../assets/Images/Depositfund.jpg";
 import StartTrading from "../assets/Images/StartTrading.jpg";
 import GroupBanner6 from "../assets/Images/GroupBanner6.jpg";
-
+import DiversifiedIcon from "../assets/Images/Diversified-icon.jpg"
+import CompetitiveIcon from "../assets/Images/Competitive-icon.jpg";
+import RobustSecurityIcon from "../assets/Images/Robust-Security-Measures-icon.jpg";
+import FastestIcon from "../assets/Images/Fastest-Customer-Support-icon.jpg";
+import MobileStay from "../assets/Images/MobileStayAhead.jpg";
+import GoogleApp from "../assets/Images/GoogleApp.jpg";
+import GooglePlay from "../assets/Images/GooglePlay.jpg";
+import QrCode from "../assets/Images/QrCode.png";
+import Banners from "../assets/Images/Banners.jpg";
+import SmartContracts from "../assets/Images/SmartContracts.jpg";
+import MNTC from "../assets/Images/MNTC.jpg";
+import BlockChain from "../assets/Images/blockchain.jpg";
+import KoinbxEarning from "../assets/Images/KoinBxEarning.jpg";
 interface CryptoData {
   name: string;
   price: number;
@@ -254,8 +266,195 @@ export default function Dashboard() {
           </div>
         </div>
       </section>
+      <section>
+        <div className='mb-5 text-left px-52'>
+          <h2 className="text-3xl font-semibold mb-2">
+            Sign up now to build your crypto portfolio for free!
+          </h2>
+        </div>
+        <div className='text-left px-52'>
+          <button className='bg-cyan-300 px-9 py-2 rounded-full'>Get Started</button>
+        </div>
+        <div className='text-left px-44 mt-16'>
+//           <h3 className='text-4xl font-semibold mb-4'>Salient Features of KoinBx</h3>
+//           <p className='font-light text-lg'>KoinBX is a cutting-edge crypto trading platform that offers a host of remarkable features tailored to cater to the needs of seasoned traders and crypto enthusiasts.
+//             Here are some of the standout features that set KoinBX apart from the rest</p>
+        </div>
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+          <div className="border border-gray-300 bg-gray-100 rounded-xl p-5 shadow-sm">
+            <div>
+              <div className="flex justify-end">
+                <Image src={DiversifiedIcon} alt="" height={100} width={100} />
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-2">Diversified Crypto Portfolio</h3>
+              <p className="text-gray-600">
+                Whether you are a beginner or a pro-level trader, KoinBX is a user-friendly and easy-to-navigate app for a smooth and hassle-free <br />
+                crypto trading journey.
+              </p>
+            </div>
+          </div>
+
+          <div className="border border-gray-300 bg-gray-100 rounded-xl p-5 shadow-sm">
+            <div>
+              <div className="flex justify-end">
+                <Image src={RobustSecurityIcon} alt="" height={100} width={100} />
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-2">Robust Security Measures</h3>
+              <p className="text-gray-600">
+                KoinBX implements state-of-the-art security protocols such as two-factor authentication (2FA), cold storage for cryptos, and encrypted data transmission for securing the data and funds of the users.
+              </p>
+            </div>
+          </div>
+          <div className="border border-gray-300 bg-gray-100 rounded-xl p-5 shadow-sm">
+            <div>
+              <div className="flex justify-end">
+                <Image src={CompetitiveIcon} alt="" height={100} width={100} />
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-2">Competitive Trading Fees</h3>
+              <p className="text-gray-600">
+                KoinBX offers competitive and transparent fee structures to attract traders from all backgrounds, fostering an inclusive trading community and allowing traders to maximize their profits.
+              </p>
+            </div>
+          </div>
+          <div className="border border-gray-300 bg-gray-100 rounded-xl p-5 shadow-sm">
+            <div>
+              <div className="flex justify-end">
+                <Image src={CompetitiveIcon} alt="" height={100} width={100} />
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-2">Fastest Customer Support</h3>
+              <p className="text-gray-600">
+                Whether it's a technical support call or an account-related query, our dedicated support team is committed to providing prompt and effective solutions to improve the overall user experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 className='text-4xl font-medium mt-12 px-40'>Stay ahead and become a Crypto Trailblazer</h3>
+          <br /><span className='mt-44 font-medium text-4xl px-40'>with the KoinBX App!</span>
+        </div>
+        <div className="flex flex-rows justify-around gap-4 p-4 items-center">
+          <div>
+            <Image
+              src={MobileStay} alt="Mobile App"
+              className="w-full h-[650px] object-contain"
+            />
+          </div>
+
+          <div className="flex flex-col items-center justify-center  md:px-16 space-x-4">
+            <h4 className="text-4xl font-bold text-gray-800 mb-4">
+              Trade Anytime<br />Anywhere
+            </h4>
+            <div className='grid grid-cols-3 items-center'>
+              <div className='flex flex-col'>
+                <Image src={GoogleApp} alt="Download App" className="w-40 h-auto mb-2 ms-24" />
+                <Image src={GooglePlay} alt="Download App" className="w-40 h-auto ms-24" />
+              </div>
+              <div className='flex'>
+                <Image src={QrCode} alt="" className='ms-11' />
+              </div>
+            </div>
+          </div>
+        </div>
+        <h4 className="text-4xl font-semibold mb-24 text-left md:ms-44 ms-4">
+          Need Help?
+        </h4>
+        <div className="ms-42 max-w-6xl px-2">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="border border-gray-300 bg-gray-100 rounded-xl p-5  shadow-sm text-center">
+              <h3 className="text-2xl font-semibold text-gray-800 mb-2 text-left">24/7 Customer Support</h3>
+              <p className="text-gray-600 text-left mb-4">
+                Our dedicated customer support is always happy to assist you!
+              </p>
+              <div className='text-left'>
+                <button className="text-blue-600 font-medium hover:underline">Raise a Ticket</button>
+              </div>
+            </div>
+
+            <div className="border border-gray-300 bg-gray-100 rounded-xl p-5 shadow-sm text-center">
+              <h3 className="text-2xl font-semibold text-gray-800 mb-2 text-left">FAQ</h3>
+              <p className="text-gray-600 mb-4 text-left">
+                View FAQs for detailed instructions on specific features.
+              </p>
+              <div className='text-left'>
+                <button className="text-blue-600 font-medium hover:underline">Know More</button>
+              </div>
+            </div>
+
+            <div className="border border-gray-300 bg-gray-100 rounded-xl p-5 shadow-sm text-center">
+              <h3 className="text-2xl font-semibold text-gray-800 mb-2 text-left">Blog</h3>
+              <p className="text-gray-600 mb-4 text-left">
+                Stay up to date with the latest stories and updates.
+              </p>
+              <div className='text-left'>
+                <button className="text-blue-600 font-medium hover:underline">View More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='text-center mt-7'>
+          <Image src={Banners} alt="Banners" className='mx-auto object-contain w-5/6 h-fit' />
+        </div>
+      </section>
+      <section>
+        <h3 className='text-left font-medium font-sans text-4xl mt-7 px-28 mb-7'>
+          Latest Blogs
+        </h3>
+        <div className="flex justify-start px-14">
+          <div className="flex flex-col md:flex-row gap-8 items-center p-6 max-w-6xl w-full">
+            <div className="flex flex-col items-center md:items-start px-6 text-center md:text-left">
+              <Image src={SmartContracts} alt="Smart Contracts" className="w-full max-w-sm mb-4" />
+              <button className="bg-cyan-400 text-white px-6 py-2 rounded shadow hover:bg-cyan-500 transition">
+                Guides
+              </button>
+              <p className="font-bold mt-4">
+                The Role of Smart Contracts In Cryptocurrency
+                <br />and Blockchain
+              </p>
+            </div>
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-row items-center gap-4">
+                <Image src={MNTC} alt="MNTC" className="w-52" />
+                <div>
+                  <button className="bg-cyan-400 text-white w-48 px-7 py-2 rounded shadow hover:bg-cyan-500 transition">
+                    Listing / Delisting
+                  </button>
+                  <p className="font-bold mt-4">
+                    Buy, Sell, or Trade Minati Coin (MNTC) in India
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-row items-center gap-4">
+                <Image src={BlockChain} alt="Blockchain" className="w-52" />
+                <div>
+                  <button className="bg-cyan-400 text-white w-48 px-7 py-2 rounded shadow hover:bg-cyan-500 transition">
+                    Learn
+                  </button>
+                  <p className="font-bold mt-4">
+                    What is Interoperability in Blockchain?
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-row items-center gap-4">
+                <Image src={KoinbxEarning} alt="Koinbx Earning" className="w-52" />
+                <div>
+                  <button className="bg-cyan-400 text-white w-48 px-7 py-2 rounded shadow hover:bg-cyan-500 transition">
+                    Guides
+                  </button>
+                  <p className="font-bold mt-4">
+                    A Beginner's Guide to KoinBx Earning
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
     </>
-  );
+  )
 }
+
 
 
