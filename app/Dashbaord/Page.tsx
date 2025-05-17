@@ -230,7 +230,7 @@ export default function Dashboard() {
 
       <section className="mt-44 px-4 md:px-16 text-center mb-11">
         <h2 className="text-3xl font-semibold mb-10  px-40">
-          Buying & selling cryptocurrency will be more user-friendly than in the past
+         Buying &amp; selling cryptocurrency will be more user-friendly than in the past
         </h2>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-16 md:gap-32 px-4 py-8">
