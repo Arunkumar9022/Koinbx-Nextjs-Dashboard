@@ -1,11 +1,11 @@
 "use client";
 import { useEffect, useState } from 'react';
-import { initializeApp } from 'firebase/app';
-import {
-  getDatabase,
-  ref,
-  onValue
-} from 'firebase/database';
+// import { initializeApp } from 'firebase/app';
+// import {
+//   getDatabase,
+//   ref,
+//   onValue
+// } from 'firebase/database';
 import { database } from "./lib/Firebase";
 import Image from 'next/image';
 import Head from 'next/head';
@@ -66,24 +66,24 @@ export default function Dashboard() {
   const [newList, setNewList] = useState<CryptoData[]>([]);
   const [activeTab, setActiveTab] = useState<'hot' | 'new'>('hot');
 
-  useEffect(() => {
-    const hotListRef = ref(database, 'hotList');
-    const newListRef = ref(database, 'newList');
+  // useEffect(() => {
+    // const hotListRef = ref(database, 'hotList');
+    // const newListRef = ref(database, 'newList');
 
-    onValue(hotListRef, (snapshot) => {
-      const data = snapshot.val();
-      if (data) {
-        setHotList(Object.values(data));
-      }
-    });
+    // onValue(hotListRef, (snapshot) => {
+    //   const data = snapshot.val();
+    //   if (data) {
+    //     setHotList(Object.values(data));
+    //   }
+    // });
 
-    onValue(newListRef, (snapshot) => {
-      const data = snapshot.val();
-      if (data) {
-        setNewList(Object.values(data));
-      }
-    });
-  }, []);
+  //   onValue(newListRef, (snapshot) => {
+  //     const data = snapshot.val();
+  //     if (data) {
+  //       setNewList(Object.values(data));
+  //     }
+  //   });
+  // }, []);
 
   const displayedList = activeTab === 'hot' ? hotList : newList;
 
