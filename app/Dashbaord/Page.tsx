@@ -322,7 +322,7 @@ export default function Dashboard() {
               </div>
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">Fastest Customer Support</h3>
               <p className="text-gray-600">
-                Whether it's a technical support call or an account-related query, our dedicated support team is committed to providing prompt and effective solutions to improve the overall user experience.
+                Whether it is a technical support call or an account-related query, our dedicated support team is committed to providing prompt and effective solutions to improve the overall user experience.
               </p>
             </div>
           </div>
@@ -442,7 +442,7 @@ export default function Dashboard() {
                     Guides
                   </button>
                   <p className="font-bold mt-4">
-                    A Beginner's Guide to KoinBx Earning
+                    A Beginners Guide to KoinBx Earning
                   </p>
                 </div>
               </div>
